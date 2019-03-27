@@ -1,0 +1,39 @@
+3. tétel: Eldöntés tétele:
+	- Eldöntés tétele
+    - Kiinduló állapot: Van egy N elemű tömböm, adatokkal név: ADAT
+    - Feladat: határozzuk meg, van e benne T típusu elem
+    - Megoldás művelete:
+       START
+        i = 1
+        Ciklus, AMIG ADAT[i] != T && I<N
+          i = i+1
+        CIKLUS VÉGE
+        HA i < N AKKOR KI ("VAN")
+        KÜLÖNBEN KI ("nincs")
+       STOP
+   
+   - Gyakorlati feladat ezzel kapcsolatban
+
+
+4. tétel: Kiválasztás tétele:
+  - Tudom, hogy van benne T tulajdonságú elem
+  - határozzuk meg hol van
+  - START
+      i = 1
+        Ciklus, AMIG ADAT[i] != T && I<N
+          i = i+1
+        CIKLUS VÉGE
+        KI (I)
+    STOP
+    
+5. tétel: Keresés tétele
+  - Az előző kettő palykos ötvözete
+    - Meg kell nézni van e benne és ha igen hol
+       START
+        i = 1
+        Ciklus, AMIG ADAT[i] != T && I<N
+          i = i+1
+        CIKLUS VÉGE
+        HA i <= N AKKOR KI ("I")
+        KÜLÖNBEN KI ("nincs")
+       STOP
