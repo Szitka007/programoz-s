@@ -1,0 +1,2 @@
+# programoz-s
+Órai jegyzetek
