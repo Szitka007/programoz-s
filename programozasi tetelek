@@ -37,3 +37,62 @@
         HA i <= N AKKOR KI ("I")
         KÜLÖNBEN KI ("nincs")
        STOP
+       
+6.Maximumkiválasztás tétele:
+  Kiinduló állapot: Van egy N elemű, adatokkal feltöltött ADAT nevű tömb.
+   FELADAT: Hat. meg a legnagyobb elemi értékét vagy sorszámát
+    Megoldás menete:
+      Max= ADAT[1]
+        CIKLUS I=2-től N-ig
+          HA  ADAT[I]>MAX AKKOR MAX=ADAT[I]
+            CIKLUS VÉGE
+              KI (MAX)
+             
+  MAXINDEX = 1
+  CIKLUS I=2-től N-ig
+    HA ADAT [I] >ADAT[MAXINDEX]   (MAXINEX=I)
+    CIKLUS
+    KI (MAXINDEX) 
+    
+7.Minimum kiválasztás tétele:
+  Kiinduló állapot: van egy N elemű, adatokkal fletöltött ADAT nevű tömb
+  
+  FELADAT: határozza meg a legkisebb elem értékét vagy sorszámát
+  
+  Megoldás menete:
+    MIN= ADAT[1]
+        CIKLUS I=2-től N-ig
+          HA  ADAT[I]<MIN AKKOR MIN=ADAT[I]
+            CIKLUS VÉGE
+              KI (MIN)
+              
+              MINNDEX = 1
+  CIKLUS I=2-től N-ig
+    HA ADAT [I]  <ADAT[MININDEX]   (MINNDEX=I)
+    CIKLUS
+    KI (MININDEX) 
+
+8. tétel: Logaritmus keresés tétle
+	-N elemű tömb -> ADAT (sorban)
+	-Van e benne T elem és hol
+	
+	START
+	A = 1
+	F = N
+	VAN = false
+	CIKLUS
+		K = (A+F)/2
+		HA ADAT[k] = x, AKKOR VAN = true
+		HA ADAT[k] > x, F = K-1
+		HA ADAT[K] < x, A = K+1
+	AMÍG VAN = false && A <= F
+	HA VAN=true KI(K)
+	KÜLÖNBEN = KI("nincs")
+	STOP
+
+9. tétel:
+	ADAT N elemű több
+	N elemű ÚJ
+	Gyűjtse ki az új tömbbe a régi T tulajdonságú elemei
+	START
+	
