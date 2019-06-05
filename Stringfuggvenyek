@@ -1,0 +1,51 @@
+A STRING valójában osztály
+  - Metódusai vannak
+    - s.ToUpper() = "ALMA"
+Függvények:
+  - s.ToUpper():
+    - Átalakítja nagybetűssé a cuccokat
+    - Ennek ellentettje a s.ToLower
+  
+  -s.Length
+    - ez nem függvény, hanem adatmező, ezért nincs zárójel
+    - a string hosszát adja meg
+  
+  -s.Contains("keresett érték")
+    - eldönti, hogy a stringemben van e valami karakter vagy részstring
+  
+  -s.IndexOf("keresett rész")
+    - megmondja melyik karakterpozíciótól szerepel
+    - ha van akkor megadja
+    - ha nincs benne, akkor -1
+    - Félig ellentetje a s.LastIndexOf()
+  
+  
+  -s.Insert(hova, "beszúrandó rész")
+  
+  
+  -s.Remove(honnan, hányat)
+  
+  -s.Substring(honnan, hányat)
+    -kicsippent
+  
+  -s.Replace("mit", "mire")
+  
+  -s.StartsWith("szövegrész")
+  
+  -s.EndsWith("szövegrész")
+  
+  -s.Trim("karakter")
+  
+  -s.TrimStart("karakter")
+  
+  -s.TrimEnd("karakter")
+  
+  -s.CompareTo("szövegrész")
+  
+  -s.PadLeft(szélesség, 'karakter')
+  
+  -s.Padright(szélesség, 'karakter')
+  
+  -s.Split('karakter')
+                   
+  
